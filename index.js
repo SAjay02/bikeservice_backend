@@ -11,7 +11,7 @@ const bodyParser = require("body-parser");
 //configure DB
 const connectdb = require('./db');
 //models
-const Register = require("./BookedModel");
+const Register = require("./RegisterModel");
 const Booking = require("./BookedModel");
 const AddService = require("./AddServiceModel")
 const jwt = require("jsonwebtoken")
